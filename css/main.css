@@ -118,7 +118,7 @@ ul, li {
 }
 .icon {
 	margin-right: 10px;
-	font-size: 21px;
+	font-size: 18px;
 }
 .offer__btn {
 	display: inline-block;
@@ -138,58 +138,6 @@ ul, li {
 .btn-box {
 	max-width: 300px;
 	justify-content: space-between;
-}
-/*---- about ----*/
-.about-author img {
-	max-width: 220px;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 30px;
-}
-.about {
-	padding: 100px 0;
-}
-.about-content p {
-	margin: 13px 0;
-	font-size: 17px;
-}
-.about-author__name {
-	font-size: 18px;
-	font-weight: 700;
-}
-.about-info__list li {
-	margin-bottom: 10px;
-	font-size: 16px;
-}
-/*---- thanks ----*/
-.thanks {
-	padding: 106px 0 95px;
-}
-.thanks-content {
-	align-items: center;
-	justify-content: space-between;
-}
-.achieve {
-	width: 590px;
-}
-.achieve__list {
-	margin-top: 65px;
-}
-.achieve__item {
-	font-size: 18px;
-	font-weight: 300;
-	margin-bottom: 45px;
-	display: flex;
-}
-.achieve__item:before {
-	content: '';
-	display: block;
-	width: 14px;
-	height: 14px;
-	background: #000;
-	border: 6px solid #ffde00;
-	margin-right: 27px;
 }
 /*---- know -----*/
 .know {
@@ -277,6 +225,83 @@ ul, li {
 	font-size: 34px;
 	display: block;
 	text-transform: uppercase;
+}
+/*---- about ----*/
+.about-content {
+	justify-content: space-between;
+}
+.about-author {
+	width: 380px;
+}
+.about-author img {
+	max-width: 220px;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.about-author,
+.about-info {
+	padding: 0 30px;
+}
+.about {
+	padding: 100px 0;
+}
+.about-content p {
+	margin: 17px 0;
+	font-size: 17px;
+	line-height: 1.6;
+}
+.about-author__text span {
+	font-size: 21px;
+	font-weight: 700;
+}
+.about-author__name {
+	font-size: 18px;
+	font-weight: 700;
+}
+.about-title {
+	margin-bottom: 20px;
+}
+.about-info__phrase {
+	background: rgb(228, 235, 241);
+    padding: 35px 20px;
+}
+.about-info__list li {
+	margin-bottom: 6px;
+	font-size: 18px;
+}
+.about-info__last {
+	margin-top: 30px;
+}
+/*---- thanks ----*/
+.thanks {
+	padding: 106px 0 95px;
+}
+.thanks-content {
+	align-items: center;
+	justify-content: space-between;
+}
+.achieve {
+	width: 590px;
+}
+.achieve__list {
+	margin-top: 65px;
+}
+.achieve__item {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 45px;
+	display: flex;
+}
+.achieve__item:before {
+	content: '';
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: #000;
+	border: 6px solid #ffde00;
+	margin-right: 27px;
 }
 /*-----------------time----------------------*/
 .time {

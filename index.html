@@ -3,23 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Профессиональный веб-дизайнер</title>
-	<!---------------------META Search------------------>
+	<!----META Search ---->
 	<meta name = "description" content = "Краткое описание этой страницы.">
 	<meta name = "keywords" content = "страница, описание">
-	<!--------------------OG Open Graph----------------->
+	<!--- OG Open Graph ----->
 	<meta property="og:title" content="ЗАГОЛОВОК СТРАНИЦЫ">
 	<meta property="og:description" content="ОПИСАНИЕ СТРАНИЦЫ. МОЖНО НЕСКОЛЬК ПРЕДЛОЖЕНИЯМИ">
 	<meta property="og:type" content="article">
 	<meta property="og:image" content="https://ССЫЛКА НА КАРТИНКУ">
 	<meta property="og:site_name" content="НАЗВАНИЕ САЙТА">
-	<!--------------------- FAVICON--------------------->
+	<!---- FAVICON ---->
 	<link rel="icon" href="img/favicon.png" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-	<!------------------FONT-FAMILY ROBOTO-------------->
+	<!--- FONT-FAMILY ROBOTO ----->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
-	<!--------------------FONT AWESOME------------------>
+	<!----- FONT AWESOME ----->
 	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
-	<!----------------------CSS FILE-------------------->
+	<!----- bootstrap ----->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+	<!---- CSS FILE ------>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -91,79 +93,6 @@
 			</div>
 		</div>
 	</header>
-	<section class="about" id="about">
-		<div class="container">
-			<div class="about-content d-flex align-items-center">
-				<div class="about-author">
-					<img src="img/author.jpg" alt="Автор проекта">
-					<div class="about-author__text">
-						<h5>
-							Давайте знакомиться!
-						</h5>
-						<p class="about-author__name">
-							Меня зовут Андрей Гаврилов и я являюсь основателем WAYUP.
-						</p>
-						<p>
-							Многолетний опыт в сфере разработки сайтов и удивительная жизнь, которую я обрел благодаря фрилансу и работе на себя, привели меня к идее создать по‑настоящему эффективный образовательный проект.
-						</p>
-					</div>
-				</div>
-				<div class="about-info">
-					<h5>
-						WayUp Кто мы?
-					</h5>
-					<p>
-						Два с половиной года работы доказали, что <b>WAYUP</b> — это сообщество успешных людей, которые занимаются любимым делом, работают откуда угодно и создают крутые вещи ежедневно. Мы обучаем веб-дизайну, разработке сайтов и тому, как максимально быстро выйти на фриланс и заработать первые деньги еще в процессе обучения.
-					</p>
-					<p>
-						Гарантия доходов и постоянная поддержка — пожалуй, именно поэтому вот уже <b>152470</b> студентов выбрали наши программы обучения.
-					</p>
-					<h5>
-						Чем мы отличаемся?
-					</h5>
-					<ul class="about-info__list">
-						<li>
-							<i class="fas fa-check icon"></i>
-							Человеческий «теплый» подход к обучению
-						</li>
-						<li>
-							<i class="fas fa-check icon"></i>
-							Технологии + харизматичные эксперты-практики
-						</li>
-						<li>
-							<i class="fas fa-check icon"></i>
-							Никакой скучной «бубнежки» и «абстрактных» занятий
-						</li>
-						<li>
-							<i class="fas fa-check icon"></i>
-							30% — занятия, 70% — уникальная эко-система WAYUP
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="thanks" id="thanks">
-		<div class="container d-flex thanks-content">
-			<div class="achieve">
-				<h2 class="achieve__title">
-					Благодаря <br> веб-дизайну:
-				</h2>
-				<ul class="achieve__list">
-					<li class="achieve__item">
-						Я собрал портфолио и работаю с клиентами по всему миру
-					</li>
-					<li class="achieve__item">
-						Моя жизнь полностью изменилась
-					</li>
-					<li class="achieve__item">
-						Мои ученики зарабатывают от $700 ежемесячно
-					</li>
-				</ul>
-			</div>
-			<img src="img/poto.jpg" alt="creator" class="about-photo">
-		</div>
-	</section>
 	<section class="know" id="know">
 		<div class="container">
 			<div class="content d-flex align-items-center">
@@ -232,6 +161,83 @@
 					</p>
 				</div>
 			</div>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="container">
+			<div class="about-content d-flex">
+				<div class="about-author">
+					<img src="img/author.jpg" alt="Автор проекта">
+					<div class="about-author__text">
+						<span>
+							Давайте знакомиться!
+						</span>
+						<p class="about-author__name">
+							Меня зовут Андрей Гаврилов и я являюсь основателем WAYUP.
+						</p>
+						<p>
+							Многолетний опыт в сфере разработки сайтов и удивительная жизнь, которую я обрел благодаря фрилансу и работе на себя, привели меня к идее создать по‑настоящему эффективный образовательный проект.
+						</p>
+					</div>
+				</div>
+				<div class="about-info">
+					<div class="about-info__first">
+					<h5 class="about-title">
+						WayUp Кто мы?
+					</h5>
+						<p>
+							Два с половиной года работы доказали, что <b>WAYUP</b> — это сообщество успешных людей, которые занимаются любимым делом, работают откуда угодно и создают крутые вещи ежедневно. Мы обучаем веб-дизайну, разработке сайтов и тому, как максимально быстро выйти на фриланс и заработать первые деньги еще в процессе обучения.
+						</p>
+						<p class="about-info__phrase">
+							Гарантия доходов и постоянная поддержка — пожалуй, именно поэтому вот уже <b>152470</b> студентов выбрали наши программы обучения.
+						</p>
+					</div>
+					<div class="about-info__last">
+						<h5>
+							Чем мы отличаемся?
+						</h5>
+						<ul class="about-info__list">
+							<li>
+								<i class="fas fa-check icon"></i>
+								Человеческий «теплый» подход к обучению
+							</li>
+							<li>
+								<i class="fas fa-check icon"></i>
+								Технологии + харизматичные эксперты-практики
+							</li>
+							<li>
+								<i class="fas fa-check icon"></i>
+								Никакой скучной «бубнежки» и «абстрактных» занятий
+							</li>
+							<li>
+								<i class="fas fa-check icon"></i>
+								30% — занятия, 70% — уникальная эко-система WAYUP
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="thanks" id="thanks">
+		<div class="container d-flex thanks-content">
+			<div class="achieve">
+				<h2 class="achieve__title">
+					Благодаря <br> веб-дизайну:
+				</h2>
+				<ul class="achieve__list">
+					<li class="achieve__item">
+						Я собрал портфолио и работаю с клиентами по всему миру
+					</li>
+					<li class="achieve__item">
+						Моя жизнь полностью изменилась
+					</li>
+					<li class="achieve__item">
+						Мои ученики зарабатывают от $700 ежемесячно
+					</li>
+				</ul>
+			</div>
+			<img src="img/poto.jpg" alt="creator" class="about-photo">
 		</div>
 	</section>
 	<section class="time" id="time">
