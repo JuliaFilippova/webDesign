@@ -121,23 +121,18 @@ ul, li {
 	font-size: 18px;
 }
 .offer__btn {
-	display: inline-block;
 	background: #000;
 	color: #fff;
 	font-size: 18px;
 	padding: 13px 35px 15px;
-	position: relative;
 	transition: all 500ms ease; 
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
 }
 .offer__btn:focus {
 	outline: none;
 }
 .offer__btn:hover {
-	box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
-}
-.btn-box {
-	max-width: 300px;
-	justify-content: space-between;
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
 }
 /*---- know -----*/
 .know {
@@ -229,9 +224,6 @@ ul, li {
 /*---- about ----*/
 .about-content {
 	justify-content: space-between;
-}
-.about-author {
-	width: 380px;
 }
 .about-author img {
 	max-width: 220px;
