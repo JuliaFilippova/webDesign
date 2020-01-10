@@ -92,11 +92,11 @@ ul, li {
 	margin-right: 5px;
 }
 .offer__btn {
+	display: inline-block;
 	background: #000;
 	color: #fff;
 	font-size: 18px;
-	padding: 13px 0 15px;
-    width: 300px;
+	padding: 13px 15px 15px;
 	position: relative;
 	transition: all 500ms ease; 
 }
@@ -106,9 +106,6 @@ ul, li {
 .offer__btn:hover {
 	box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
 }
-.offer__btn:active {
-}
-
 /*-----------------know----------------------*/
 .know {
 }
