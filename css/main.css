@@ -27,6 +27,9 @@ h2 {
 h3 {
 	font-size: 38px;
 }
+h4 {
+	font-size: 28px;
+}
 a {
 	padding: 0;
 	margin: 0;
@@ -59,7 +62,7 @@ ul, li {
 	letter-spacing: 0.02em;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
-/*-----------------HEADER----------------------*/
+/*---- HEADER ----*/
 .header {
 	background: url('../img/first_bg.jpg') no-repeat center center /cover;
 	padding: 74px 0 99px;
@@ -118,7 +121,7 @@ ul, li {
 	background: #000;
 	color: #fff;
 	font-size: 18px;
-	padding: 13px 15px 15px;
+	padding: 13px 35px 15px;
 	position: relative;
 	transition: all 500ms ease; 
 }
@@ -128,12 +131,50 @@ ul, li {
 .offer__btn:hover {
 	box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
 }
-/*-----------------know----------------------*/
+.btn-box {
+	max-width: 300px;
+	justify-content: space-between;
+}
+/*---- about ----*/
+.about-content p {
+	margin-bottom: 10px;
+
+}
+/*---- thanks ----*/
+.thanks {
+	padding: 106px 0 95px;
+}
+.thanks-content {
+	align-items: center;
+	justify-content: space-between;
+}
+.achieve {
+	width: 590px;
+}
+.achieve__list {
+	margin-top: 65px;
+}
+.achieve__item {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 45px;
+	display: flex;
+}
+.achieve__item:before {
+	content: '';
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: #000;
+	border: 6px solid #ffde00;
+	margin-right: 27px;
+}
+/*---- know -----*/
 .know {
 }
 .question {
 	width: 705px;
-	padding: 83px 0 88px;
+	padding: 55px 0 60px;
 }
 .question p {
 	font-size: 22px;
@@ -144,23 +185,20 @@ ul, li {
 }
 .author {
 	width: 465px;
-	padding: 72px 0 67px 43px;
+	padding: 55px 0 60px 40px;
 	background: #ededed;
 	color: #454545;
-
 }
 .author__name {
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
-
 }
 .author__details {
 	font-size: 17px;
 	font-weight: 300;
 	margin: 10px 0 27px;
     line-height: 1.5em;
-
 }
 .author__text {
 
@@ -195,7 +233,7 @@ ul, li {
 	color: #454545;
 	border-bottom: 1px dotted;
 }
-/*-----------------HEADER----------------------*/
+/*---- money -----*/
 .money {
 	background: #000;
 	color: #fff;
@@ -217,35 +255,6 @@ ul, li {
 	font-size: 34px;
 	display: block;
 	text-transform: uppercase;
-}
-/*-----------------HEADER----------------------*/
-.thanks {
-	padding: 106px 0 95px;
-}
-.thanks-content {
-	align-items: center;
-	justify-content: space-between;
-}
-.achieve {
-	width: 590px;
-}
-.achieve__list {
-	margin-top: 65px;
-}
-.achieve__item {
-	font-size: 18px;
-	font-weight: 300;
-	margin-bottom: 45px;
-	display: flex;
-}
-.achieve__item:before {
-	content: '';
-	display: block;
-	width: 14px;
-	height: 14px;
-	background: #000;
-	border: 6px solid #ffde00;
-	margin-right: 27px;
 }
 /*-----------------time----------------------*/
 .time {
