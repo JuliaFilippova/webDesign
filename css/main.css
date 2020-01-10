@@ -64,6 +64,19 @@ ul, li {
 	color: #000;
 	text-transform: uppercase;
 }
+.menu {
+	margin-left: auto;
+}
+.menu__list li a {
+	color: #343434;
+	font-size: 14px;
+	padding: 5px 25px;
+	border-bottom: 1px solid transparent;
+	letter-spacing: 0.2em;
+}
+.menu__list li a:hover {
+	border-bottom: 1px solid #343434;
+}
 .workshop {
 	font-size: 20px;
 	font-weight: 900;
