@@ -157,6 +157,8 @@ ul, li {
 }
 .offer__btn:hover {
 	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
+	color: #fff;
+	text-decoration: none;
 }
 /*---- know -----*/
 .know {
@@ -189,12 +191,8 @@ ul, li {
 	margin: 10px 0 27px;
     line-height: 1.5em;
 }
-.author__text {
-
-}
 .author__number {
 	margin-bottom: 25px;
-	
 }
 .author__element {
 	align-items: center;
@@ -221,6 +219,11 @@ ul, li {
 .author__link {
 	color: #454545;
 	border-bottom: 1px dotted;
+}
+.author__link:hover {
+	color: #ffd400;
+	border-bottom: 1px solid;
+	text-decoration: none;
 }
 /*---- money -----*/
 .money {
