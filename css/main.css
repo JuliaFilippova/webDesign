@@ -160,6 +160,10 @@ ul, li {
 	color: #fff;
 	text-decoration: none;
 }
+.offer__btn:focus, .offer__btn:hover {
+    color: #fff; 
+    text-decoration: none;
+}
 /*---- know -----*/
 .know {
 }
