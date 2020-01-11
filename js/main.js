@@ -1,5 +1,8 @@
-//Валидация и отправка формы
+window.onload = function () {
+    document.body.classList.add('loader-site');
+  }
 
+//Валидация и отправка формы
 $(document).ready(function() {
     $('[data-submit]').on('click', function(e) {
         e.preventDefault();
