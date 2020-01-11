@@ -108,6 +108,7 @@ ul, li {
 	font-weight: 700;
 	padding: 5px 25px;
 	border-bottom: 1px solid transparent;
+	text-decoration: none;
 	letter-spacing: 0.2em;
 }
 .menu__list li a:hover {
@@ -451,7 +452,7 @@ input.valid {
 /*-----------------footer finish----------------------*/
 .footer {
 	background: #000;
-	padding: 60px 0 46px;
+	padding: 50px 0 35px;
 	font-size: 13px;
 	font-weight: 300;
 	color: #fff;
@@ -479,8 +480,8 @@ input.valid {
 	color: #ffd400;
 }
 .network__social {
-	width: 168px;
-	margin-top: 40px;
+	width: 185px;
+	justify-content: space-between;
 }
 .network__link {
 	color: #fff;
