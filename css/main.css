@@ -457,6 +457,9 @@ input.valid {
 	color: #fff;
 	text-transform: uppercase;
 }
+.finish__contacts a {
+	margin-right: 90px;
+}
 .finish__auhtor {
 	margin-right: 90px;
 }
