@@ -1,10 +1,11 @@
-document.addEventListener('DOMContentLoaded', function () {
-  document.body.classList.add('loader-hiding');
-  window.setTimeout(function () {
-    document.body.classList.add('loader-site');
-    document.body.classList.remove('loader-hiding');
-  }, 500);
+//загрузка сайта loader-site
+$(window).on('load', function () {
+    var $preloader = $('#loader-site'),
+        $svg_loader   = $preloader.find('.loader-site__svg');
+    $svg_loader.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
 });
+
 //Валидация и отправка формы
 $(document).ready(function() {
     $('[data-submit]').on('click', function(e) {
