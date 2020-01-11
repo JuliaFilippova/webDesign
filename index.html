@@ -262,24 +262,24 @@
 			<h2>
 				Регистрация <br> на мастер-класс
 			</h2>
-			<form action="success.php" class="form" id="popupResult">
-				<p class="form__fill">
+			<div class="form-content">
+				<p class="form-content__fill">
 					Заполните форму и получите на почту <br> материалы для подготовки, а также  
 					<span>специальный подарок </span>
 				</p>
-				<div class="form__enter">
+				<form action="success.php" class="form" id="popupResult">
 					<input type="text" name="name" placeholder="Введите имя" required>
 					<input type="text" name="email" placeholder="Введите E-mail" required>
 					<input type="text" name="tel" placeholder="Введите телефон" required>
 					<button class="form__btn button" data-submit>
 							Поехали!
 					</button>	
-				</div>			
+				</form>			
 				<p class="form__copyright">
 					<i class="fa fa-lock"></i>
 					Ваши данные под надежной защитой. телефон будет использован лишь для sms-уведомления о начале мероприятия
 				</p>
-			</form>
+			</div>
 		</div>
 	</section>
 	<footer class="footer" id="footer">
