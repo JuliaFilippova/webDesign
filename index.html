@@ -20,7 +20,7 @@
 	<!----- FONT AWESOME ----->
 	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
 	<!----- bootstrap ----->
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="css/main.css">
 	<!---- CSS FILE ------>
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -262,7 +262,7 @@
 			<h2>
 				Регистрация <br> на мастер-класс
 			</h2>
-			<form action="#" class="form">
+			<form action="success.php" class="form" id="popupResult">
 				<p class="form__fill">
 					Заполните форму и получите на почту <br> материалы для подготовки, а также  
 					<span>специальный подарок </span>
@@ -271,7 +271,7 @@
 					<input type="text" name="name" placeholder="Введите имя" required>
 					<input type="text" name="email" placeholder="Введите E-mail" required>
 					<input type="text" name="tel" placeholder="Введите телефон" required>
-					<button type="submit" class="form__btn button">
+					<button class="form__btn button" data-submit>
 							Поехали!
 					</button>	
 				</div>			
@@ -297,5 +297,23 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- Индикация процесса отправки формы -->
+	<div id="loader">
+		<img src="img/loader.gif">
+	</div>
+	
+	<!-- Сообщение "спасибо" после отправки формы -->
+	<div id="overlay">
+		<div id="thx">
+			Спасибо! Мы обязательно вам перезвоним
+		</div>
+   	</div>
+
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<!-- Валидатор для проверки формы на заполненность  -->
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
