@@ -5,12 +5,11 @@ body {
 	margin: 0;
 	letter-spacing: 0.02em;
 }
-.container {
-	width: 1170px;
-	margin: 0 auto;
-}
 div, p, form, input, a, span, button {
 	box-sizing: border-box;
+}
+img {
+	width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
@@ -80,6 +79,9 @@ ul, li {
 }
 .align-items-center {
 	align-items: center;
+}
+.ml-auto {
+	margin-left: auto;
 }
 .button {
 	border: none;
@@ -168,21 +170,19 @@ ul, li {
 .know {
 }
 .question {
-	width: 705px;
 	padding: 55px 0 60px;
 }
 .question p {
 	font-size: 22px;
 	font-weight: 300;
-	width: 575px;
 	margin-top: 20px;
 	line-height: 1.4em;
 }
 .author {
-	width: 465px;
 	padding: 55px 0 60px 40px;
 	background: #ededed;
 	color: #454545;
+	width: 390px;
 }
 .author__name {
 	font-size: 18px;
@@ -235,16 +235,16 @@ ul, li {
 	color: #fff;
 }
 .salary {
-	width: 465px;
 	background: #ffde00;
 	justify-content: center;
 	align-items: center;
+	height: 100%;
+	width: 390px;
 }
 .salary__item {
 	font-size: 72px;
 	font-weight: 900;
 	color: #000;
-	width: 215px;
 	text-align: center;
 }
 .salary__item span {
@@ -380,7 +380,7 @@ ul, li {
 	font-size: 18px;
 	font-weight: 300;
 	color: #9e9e9e;
-	width: 270px;
+	max-width: 270px;
 	padding: 18px 0 16px 20px;
 	margin-right: 17px;
 	margin-bottom: 30px;
@@ -389,8 +389,7 @@ ul, li {
 .form__btn {
     background: #ffde00;
 	color: #000;
-	width: 225px;
-	padding: 18px 0 16px;
+	padding: 18px 35px 16px;
 	font-size: 20px;
 }
 .form input:focus {

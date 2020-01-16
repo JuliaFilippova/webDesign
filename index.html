@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!--- META Adaptive --->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Профессиональный веб-дизайнер</title>
 	<!----META Search ---->
 	<meta name = "description" content = "Краткое описание этой страницы.">
@@ -21,6 +23,7 @@
 	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
 	<!----- bootstrap ----->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<!---- CSS FILE ------>
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -31,34 +34,40 @@
 	</div>
 	<header class="header" id="header">
 		<div class="container">
-			<div class="navigation d-flex align-items-center">
-				<a href="#" class="logo">
-					Wayup
-				</a>
-				<nav class="menu">
-					<ul class="menu__list d-flex">
-						<li>
-							<a href="#about">
-								О нас
-							</a>
-						</li>
-						<li>
-							<a href="#reg">
-								Мастер классы
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Отзывы
-							</a>
-						</li>
-						<li>
-							<a href="#footer">
-								Контакты
-							</a>
-						</li>
-					</ul>
-				</nav>
+			<div class="navigation">
+				<div class="row d-flex align-items-center">
+					<div class="col-lg-auto">
+						<a href="#" class="logo">
+							Wayup
+						</a>
+					</div>
+					<div class="col-lg-9 ml-auto">
+						<nav class="menu">
+							<ul class="menu__list d-flex">
+								<li>
+									<a href="#about">
+										О нас
+									</a>
+								</li>
+								<li>
+									<a href="#reg">
+										Мастер классы
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Отзывы
+									</a>
+								</li>
+								<li>
+									<a href="#footer">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
 			</div>
 			<p class="workshop">
 				<i class="fa fa-graduation-cap workshop__icon"></i>
@@ -66,7 +75,7 @@
 			</p>
 			<div class="offer">
 				<h1 class="offer__head">
-					профессиональный веб-дизайнер
+					Профессиональный веб-дизайнер
 				</h1>
 				<ul class="offer__list">
 					<li class="offer__item">
@@ -99,150 +108,170 @@
 	</header>
 	<section class="know" id="know">
 		<div class="container">
-			<div class="content d-flex align-items-center">
-				<div class="question">
-					<h2  class="question__title">
-						Знаете ли вы?
-					</h2>
-					<p class="question__text">
-						По статистике, среднестатистический фрилансер зарабатывает около <b>30 тысяч рублей</b> в месяц. Чаще всего, гораздо меньше этой цифры.
-					</p>
+			<div class="row d-flex align-items-center">
+				<div class="col-lg-7">
+					<div class="question">
+						<h2  class="question__title">
+							Знаете ли вы?
+						</h2>
+						<p class="question__text">
+							По статистике, среднестатистический фрилансер зарабатывает около <b>30 тысяч рублей</b> в месяц. Чаще всего, гораздо меньше этой цифры.
+						</p>
+					</div>
 				</div>
-				<div class="author">
-					<div class="author__name">
-						Андрей Гаврилов
-					</div>
-					<div class="author__details">
-						<p class="author__text"> 
-							Ведущий мастер-класса
-						</p>
-						<p class="author__text">
-							Веб-дизайнер и фрилансер
-						</p>
-					</div>
-					<div class="author__number d-flex">
-						<div class="author__element d-flex">
-							<div class="author__icon">
-								100+
+				<div class="col-lg-5">
+					<div class="author">
+						<div class="author__name">
+							Андрей Гаврилов
+						</div>
+						<div class="author__details">
+							<p class="author__text"> 
+								Ведущий мастер-класса
+							</p>
+							<p class="author__text">
+								Веб-дизайнер и фрилансер
+							</p>
+						</div>
+						<div class="author__number d-flex">
+							<div class="author__element d-flex">
+								<div class="author__icon">
+									100+
+								</div>
+								<div class="author__item author__item_sites">
+									созданных сайтов
+								</div>
 							</div>
-							<div class="author__item author__item_sites">
-								созданных сайтов
+							<div class="author__element d-flex">
+								<div class="author__icon">
+									8
+								</div>
+								<div class="author__item author__item_exp">
+									лет опыта
+								</div>
 							</div>
 						</div>
-						<div class="author__element d-flex">
-							<div class="author__icon">
-								8
-							</div>
-							<div class="author__item author__item_exp">
-								лет опыта
-							</div>
-						</div>
+						<a href="#" class="author__link">
+							Узнать больше
+						</a>
 					</div>
-					<a href="#" class="author__link">
-						Узнать больше
-					</a>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="money" id="money">
 		<div class="container">
-			<div class="content d-flex">
-				<div class="question">
-					<h2 class="question__title">
-						Хм...
-					</h2>
-					<p class="question__text question__text_few">
-						Почему же так мало? Чего не хватает фрилансерам, чтобы “пробить потолок” хотя бы...
-					</p>
+			<div class="row d-flex">
+				<div class="col-lg-7">
+					<div class="question">
+						<h2 class="question__title">
+							Хм...
+						</h2>
+						<p class="question__text question__text_few">
+							Почему же так мало? Чего не хватает фрилансерам, чтобы “пробить потолок” хотя бы...
+						</p>
+					</div>
 				</div>
-				<div class="salary d-flex">
-					<p class="salary__item">
-						$1000
-						<span>
-							месяц?
-						</span>
-					</p>
+				<div class="col-lg-5">
+					<div class="salary d-flex">
+						<p class="salary__item">
+							$1000
+							<span>
+								месяц?
+							</span>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="about" id="about">
 		<div class="container">
-			<div class="about-content d-flex">
-				<div class="about-author">
-					<img src="img/author.jpg" alt="Автор проекта">
-					<div class="about-author__text">
-						<span>
-							Давайте знакомиться!
-						</span>
-						<p class="about-author__name">
-							Меня зовут Андрей Гаврилов и я являюсь основателем WAYUP.
-						</p>
-						<p>
-							Многолетний опыт в сфере разработки сайтов и удивительная жизнь, которую я обрел благодаря фрилансу и работе на себя, привели меня к идее создать по‑настоящему эффективный образовательный проект.
-							Также я блогер и путешественникю
-						</p>
+			<div class="about-content">
+				<div class="row d-flex">
+					<div class="col-lg-5">
+						<div class="about-author">
+							<img src="img/author.jpg" alt="Автор проекта">
+							<div class="about-author__text">
+								<span>
+									Давайте знакомиться!
+								</span>
+								<p class="about-author__name">
+									Меня зовут Андрей Гаврилов и я являюсь основателем WAYUP.
+								</p>
+								<p>
+									Многолетний опыт в сфере разработки сайтов и удивительная жизнь, которую я обрел благодаря фрилансу и работе на себя, привели меня к идее создать по‑настоящему эффективный образовательный проект.
+									Также я блогер и путешественникю
+								</p>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="about-info">
-					<div class="about-info__first">
-					<h5 class="about-title">
-						WayUp Кто мы?
-					</h5>
-						<p>
-							Два с половиной года работы доказали, что <b>WAYUP</b> — это сообщество успешных людей, которые занимаются любимым делом, работают откуда угодно и создают крутые вещи ежедневно. Мы обучаем веб-дизайну, разработке сайтов и тому, как максимально быстро выйти на фриланс и заработать первые деньги еще в процессе обучения.
-						</p>
-						<p class="about-info__phrase">
-							Гарантия доходов и постоянная поддержка — пожалуй, именно поэтому вот уже <b>152470</b> студентов выбрали наши программы обучения.
-						</p>
-					</div>
-					<div class="about-info__last">
-						<h5>
-							Чем мы отличаемся?
-						</h5>
-						<ul class="about-info__list">
-							<li>
-								<i class="fas fa-check icon"></i>
-								Человеческий «теплый» подход к обучению
-							</li>
-							<li>
-								<i class="fas fa-check icon"></i>
-								Технологии + харизматичные эксперты-практики
-							</li>
-							<li>
-								<i class="fas fa-check icon"></i>
-								Никакой скучной «бубнежки» и «абстрактных» занятий
-							</li>
-							<li>
-								<i class="fas fa-check icon"></i>
-								30% — занятия, 70% — уникальная эко-система WAYUP
-							</li>
-						</ul>
+					<div class="col-lg-7">
+						<div class="about-info">
+							<div class="about-info__first">
+							<h5 class="about-title">
+								WayUp Кто мы?
+							</h5>
+								<p>
+									Два с половиной года работы доказали, что <b>WAYUP</b> — это сообщество успешных людей, которые занимаются любимым делом, работают откуда угодно и создают крутые вещи ежедневно. Мы обучаем веб-дизайну, разработке сайтов и тому, как максимально быстро выйти на фриланс и заработать первые деньги еще в процессе обучения.
+								</p>
+								<p class="about-info__phrase">
+									Гарантия доходов и постоянная поддержка — пожалуй, именно поэтому вот уже <b>152470</b> студентов выбрали наши программы обучения.
+								</p>
+							</div>
+							<div class="about-info__last">
+								<h5>
+									Чем мы отличаемся?
+								</h5>
+								<ul class="about-info__list">
+									<li>
+										<i class="fas fa-check icon"></i>
+										Человеческий «теплый» подход к обучению
+									</li>
+									<li>
+										<i class="fas fa-check icon"></i>
+										Технологии + харизматичные эксперты-практики
+									</li>
+									<li>
+										<i class="fas fa-check icon"></i>
+										Никакой скучной «бубнежки» и «абстрактных» занятий
+									</li>
+									<li>
+										<i class="fas fa-check icon"></i>
+										30% — занятия, 70% — уникальная эко-система WAYUP
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="thanks" id="thanks">
-		<div class="container d-flex thanks-content">
-			<div class="achieve">
-				<h2 class="achieve__title">
-					Благодаря <br> веб-дизайну:
-				</h2>
-				<ul class="achieve__list">
-					<li class="achieve__item">
-						Я собрал портфолио и работаю с клиентами по всему миру
-					</li>
-					<li class="achieve__item">
-						Моя жизнь полностью изменилась
-					</li>
-					<li class="achieve__item">
-						Мои ученики зарабатывают от $700 ежемесячно
-					</li>
-				</ul>
+		<div class="container thanks-content">
+			<div class="row d-flex align-items-center">
+				<div class="col-lg-6">
+					<div class="achieve">
+						<h2 class="achieve__title">
+							Благодаря <br> веб-дизайну:
+						</h2>
+						<ul class="achieve__list">
+							<li class="achieve__item">
+								Я собрал портфолио и работаю с клиентами по всему миру
+							</li>
+							<li class="achieve__item">
+								Моя жизнь полностью изменилась
+							</li>
+							<li class="achieve__item">
+								Мои ученики зарабатывают от $700 ежемесячно
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<img src="img/poto.jpg" alt="creator" class="about-photo">
+				</div>
 			</div>
-			<img src="img/poto.jpg" alt="creator" class="about-photo">
 		</div>
 	</section>
 	<section class="time" id="time">
@@ -289,8 +318,8 @@
 	</section>
 	<footer class="footer" id="footer">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
+			<div class="row d-flex">
+				<div class="col-lg-3">
 					<div class="contacts-box">
 						<span class="footer-title">
 							Контакты
@@ -352,7 +381,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<ul class="finish-copy">
 						<li class="finish-copy__auhtor">
 							Wayup & Aндрей Гаврилов
